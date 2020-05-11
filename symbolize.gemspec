@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.files = Dir.glob('{lib,spec}/**/*') + %w(README.md Rakefile)
   s.require_path = 'lib'
 
-  s.add_dependency 'activemodel', '>= 3.2', '< 5'
-  s.add_dependency 'activesupport', '>= 3.2', '< 5'
+  s.add_dependency 'activemodel', '>= 3.2', '< 5.3'
+  s.add_dependency 'activesupport', '>= 3.2', '< 5.3'
 
   s.add_development_dependency 'activerecord'
   s.add_development_dependency 'coveralls'
